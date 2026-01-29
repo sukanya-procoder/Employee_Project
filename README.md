@@ -51,7 +51,7 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/employee-management-system.git
+    git clone https://github.com/sukanya-procoder/Employee_Project.git
     ```
 
 2. Navigate to the project directory:
