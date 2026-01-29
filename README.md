@@ -66,7 +66,7 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
 
 4. Update **database credentials** in `app.py` if needed:
     ```python
-    conn = pymysql.connect(user='root', host='localhost', password='Python@123', database='emp_db')
+    conn = pymysql.connect(user='root', host='localhost', password='Sukanya@9299', database='emp_db')
     ```
 
 ---
