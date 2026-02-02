@@ -1,10 +1,14 @@
 # Employee Management System
 
+
 A **GUI-based Employee Management System** developed in **Python** using **Tkinter** for the interface and **MySQL (pymysql)** as the database backend. This system allows users to **add, update, delete, view employee records, and check employee salary** in an intuitive graphical interface.
+
 
 ---
 
+
 ## Features
+
 
 - **Add Employee**: Insert new employee records with ID, name, mobile number, department, and salary.
 - **View Employee**: Display all employee records in a table format using `Treeview`.
@@ -13,9 +17,12 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
 - **Salary Management**: Check salary of a specific employee by entering their ID.
 - **Clear Table**: Remove all displayed data from the table for better readability.
 
+
 ---
 
+
 ## Tools & Technologies Used
+
 
 - **Python 3.x**
 - **Tkinter** – GUI framework for Python
@@ -23,15 +30,19 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
 - **MySQL** – Database management system
 - **ttk.Treeview** – For displaying employee records in table format
 
+
 ---
 
+
 ## Database Setup
+
 
 1. Install **MySQL** and create a database:
     ```sql
     CREATE DATABASE emp_db;
     USE emp_db;
     ```
+
 
 2. Create the `emp` table:
     ```sql
@@ -43,40 +54,51 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
     emp_salary VARCHAR(20)
 )
 
+
     ```
+
 
 ---
 
+
 ## Installation & Setup
+
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/sukanya-procoder/Employee_Project.git
+    git clone https://github.com/surajkale99/emp_project.git
     ```
+
 
 2. Navigate to the project directory:
     ```bash
     cd employee-management-system
     ```
 
+
 3. Install required Python libraries:
     ```bash
     pip install pymysql
     ```
 
+
 4. Update **database credentials** in `app.py` if needed:
     ```python
-    conn = pymysql.connect(user='root', host='localhost', password='Sukanya@9299', database='emp_db')
+    conn = pymysql.connect(user='root', host='localhost', password='Python@123', database='emp_db')
     ```
+
 
 ---
 
+
 ## Usage
+
 
 1. Run the application:
     ```bash
     python app.py
     ```
+
 
 2. The main window allows you to:
     - Add a new employee
@@ -85,29 +107,49 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
     - Update employee details
     - Check an employee’s salary
 
+
 3. Use the **CLEAR** button to remove all entries displayed in the table.
 
+
 ---
+
+
+
 
 ## Screenshots
 
+
 ### Main Window
-![Main Window Screenshot](D:\My_Python_Project\Employee_Project\Screen Shots)
+![Main Window Screenshot](screenshots/main_window.png)
+
 
 ### Salary Window
-![Salary Window Screenshot](Employee_Project/Screen Shots/salary_window.png)
+![Salary Window Screenshot](screenshots/salary_window.png)
 
 
 ---
 
+
 ## Contribution
+
 
 Feel free to fork this repository and contribute.  
 - Bug reports, suggestions, and improvements are welcome.
 
+
 ---
+
 
 ## License
 
+
 This project is **open source** and available under the MIT License.
+
+
+
+
+
+
+
+
 
