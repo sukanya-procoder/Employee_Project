@@ -92,10 +92,11 @@ A **GUI-based Employee Management System** developed in **Python** using **Tkint
 ## Screenshots
 
 ### Main Window
-![Main Window Screenshot](screenshots/main_window.png)
+![Main Window Screenshot](D:\My_Python_Project\Employee_Project\Screen Shots)
 
 ### Salary Window
-![Salary Window Screenshot](screenshots/salary_window.png)
+![Salary Window Screenshot](Employee_Project/Screen Shots/salary_window.png)
+
 
 ---
 
